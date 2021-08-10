@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+#task-div, #add-div {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+}
+
+#input-task {
+    margin-right: auto;
+    flex-grow: 1;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: mediumpurple;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#add-task-button {
+    margin-left: auto;
+    width: 90px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: small;
+    background-color: mediumpurple;
+    border: mediumpurple;
+    cursor: pointer;
+}
+
+#add-task-button:active {
+    background-color: rebeccapurple;
+}
+
+.spacer {
+    width: 2%;
+}
+
+#task-list {
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin-right: auto;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+li + li {
+    margin-top: 10px;
+}
+
+.task, .check {
+    vertical-align: middle;
+}
+.task {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.delete-btn {
+    vertical-align: middle;
+    position: relative;
+    float: right;
+
+    width: 1.5em;
+    height: 1.5em;
+    border: none;
+    
+    background-image: url("del-black.png");
+    background-size: cover;
+    background-color: white;
+}
+.delete-btn:hover {
+    background-image: url("del-red.png");
+    background-size: cover;
+    cursor: pointer;
+}
