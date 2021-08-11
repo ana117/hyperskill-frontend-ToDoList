@@ -6,7 +6,7 @@ addBtn.addEventListener("click", function () {
     let newCheckbox = document.createElement("input");	  // create input
     newCheckbox.setAttribute("type", "checkbox");   	  // create checkbox
     newCheckbox.classList.add("check");			          // set class to "check"
-    newCheckbox.setAttribute("onclick", "delTask(this)"); // add onclick function
+    newCheckbox.setAttribute("onclick", "checkTask(this)"); // add onclick function
 
     let newTask = document.createElement("span");   // create span
     newTask.classList.add("task");			        // set class to "task"
