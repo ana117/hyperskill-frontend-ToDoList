@@ -6,6 +6,7 @@ In this project, you will create a simple to-do list that can manage your tasks.
 Link to the project [To-Do List](https://hyperskill.org/projects/183).
 
 ## Demo
+![To-DoList](https://user-images.githubusercontent.com/63540951/129526185-4e1888e6-f873-4c27-a72f-93793c8ec20e.gif)
 
 ## Stages
 **Stage 1/4: Everyone's a designer these days**\
